@@ -1,5 +1,7 @@
 # loja-de-time-demo
 
+![Página Inicial](previa.png)
+
 Este é um projeto de site básico de loja de time. Ele apresenta uma demonstração da página inicial de uma loja de time e está em constante desenvolvimento.
 
 ## Visão Geral
