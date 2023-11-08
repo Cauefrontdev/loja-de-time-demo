@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    background-image: url(../imagens/allianz-parque-1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.line {
+    background-color: white;
+    width: 100%;
+    height: 1px;
+}
+
+.line2 {
+    background-color: white;
+    width: 100%;
+    height: 1px;
+    bottom: 10vh;
+    position: absolute;
+}
+.header {
+   background: #00703e43;
+   backdrop-filter: blur(6px);
+   height: 18vh;
+   width: 100%;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+}
+
+
+
+.shield {
+    width: 100px;
+    height: 100px;
+    padding-left: 20px;
+}
+
+.shield img {
+    width: 120px;
+}
+
+.positionshields {
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    height: 125px;
+    color: white;
+}
+
+.positionshields2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: auto;
+    height: auto;
+    color: white;
+}
+
+ h5 {
+    margin-top: -5px;
+}
+
+.positionshields h1 {
+    margin-left: 20px;
+    margin-left: 20px;
+    margin-top: 10px;
+    font-size: 27px;
+}
+
+.vertical-line {
+    border-left: 3px solid #b80404;
+    height: 100px;
+    margin-left: 40px;
+    margin-top: 10px;
+}
+
+
+
+.header nav ul {
+  display: flex;
+  cursor: pointer;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+}
+
+.header nav ul li a i {
+    color: #ffffff65;
+    margin-left: 60px;
+    font-size: 24px;
+    cursor: pointer;
+  }
+
+  .card-box {
+    height: 72vh;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    flex-wrap: wrap;
+    background-size: cover;
+}
+
+
+.card {
+    width: 200px;
+    border-radius: 20px;
+    background: #25c17b72;
+    backdrop-filter: blur(6px);
+    border: 3px solid rgba(162, 162, 162, 0.462);
+    padding: 15px;
+    text-align: center;
+    box-shadow: 0 0 100px 23px #005e3499;
+}
+
+.product-image {
+    max-width: 180px;
+    margin-bottom: 10px;
+}
+
+.text-price-box {
+    text-align: left;
+    margin: 0px 0px 20px 0px;
+}
+
+.old-price-box {
+    display: flex;
+    margin: 10px 0px 20px 0px;
+}
+
+.old-price {
+    text-decoration: line-through;
+    color: rgb(177, 21, 21);
+    font-size: 16px;
+    font-weight: bold;
+    margin-left: 4px;
+}
+
+.new-price {
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.buy-button {
+    background-color: rgba(0, 0, 0, 0.486);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    background: #00703e43;
+   backdrop-filter: blur(6px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: end;
+    width: 100%;
+    height: 10vh;
+    color: #fff;
+}
+
+footer h5 {
+    font-weight: 300;
+}
+
+
+
+
